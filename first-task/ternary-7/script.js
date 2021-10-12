@@ -1,9 +1,5 @@
-var str1 = prompt('Ввести значение');
+var str1 = + prompt('Ввести значение');
 
-if (str1 == 5) {
-	alert('нечетное');
-} else {
-	alert('четное');
-}
+str1 % 2 == 1 ? (alert('Нечетное')) : alert('Четное')
 
 

@@ -1,6 +1,6 @@
-var a = 10;
+var a = +prompt('a');
 if (a == 10) {
-	console.log('Верно');
+	alert('Верно');
 } else {
-	console.log('Неверно');
+	alert('Неверно');
 }

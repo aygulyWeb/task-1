@@ -1,4 +1,4 @@
-var min = 24;
+var min = +prompt('введите число');
 if (min >= 0 && min <= 14) {
 	alert('В первую четверть');
 }

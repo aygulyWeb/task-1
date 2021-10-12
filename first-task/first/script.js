@@ -1,2 +1,7 @@
-var name = "Джон";
-var admin = prompt('name');
+var name, admin;
+
+name = "Джон";
+
+admin = name;
+
+alert(admin);
